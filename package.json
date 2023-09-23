@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.ts",
+    "start": "nodemon src/index.ts",
     "dev": "tsc-watch --onSuccess \"node ./dist/index.js\"",
-    "watch": "npx ts-node index.ts",
+    "watch": "npx ts-node src/index.ts",
     "build": "rimraf dist && tsc",
     "generate": "prisma generate"
   },
