@@ -8,7 +8,7 @@
     "start": "node dist/index.js",
     "dev": "tsc-watch --onSuccess \"node ./dist/index.js\"",
     "watch": "npx ts-node src/index.ts",
-    "build": "rimraf dist && tsc",
+    "build": "rimraf dist && tsc --build",
     "postinstall": "prisma generate",
     "ts.check": "tsc --noEmit"
   },
